@@ -1,0 +1,27 @@
+
+<h1>Reports</h1>
+<%= form_tag do %>
+    <div class="form-group">
+        <%= label_tag(:init_date, 'Initial Date') %><br/>
+        <%= text_field_tag(:init_date, nil, :class => 'datepicker') %>
+    </div>
+    <div class="form-group">
+        <%= label_tag(:end_date, 'End Date') %><br/>
+        <%= text_field_tag(:end_date, nil, :class => 'datepicker') %>
+    </div>
+    <div class="form-group">
+        <%= submit_tag 'Show', :class => 'show_button btn btn-default' %>
+    </div>
+
+<% end %>
+
+ <% if @in_sum && @ex_sum %>
+    <div class="report">
+      <div class="incomes">
+            <p>Your incomes fo chosen period: <%= @in_sum %></p>
+      </div>
+      <div class="expenses">
+        <p>Your expenses fo chosen period: <%= @ex_sum %></p>
+      </div>
+    </div>
+ <% end %>

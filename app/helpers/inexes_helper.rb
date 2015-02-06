@@ -1,0 +1,2 @@
+module InexesHelper
+end

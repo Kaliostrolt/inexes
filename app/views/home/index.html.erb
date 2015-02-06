@@ -1,0 +1,7 @@
+<h1>Main page</h1>
+
+<%  if user_signed_in? %>
+<h3><%= link_to "Link to profile", user_root_path  %></h3>
+<% else %>
+<h4>For using our resource you may register or login</h4>
+<% end %>

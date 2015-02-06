@@ -1,0 +1,18 @@
+<h1>Listing of all category</h1>
+<table>
+  <tr>
+    <th>Categorie's name</th>
+    <th>Categorie's type</th>
+    <th colspan="2">Action</th>
+  </tr>
+  <% @cats.each do |c| %>
+  <tr>
+    <td><%= c.name %></td>
+    <td><%= c.kind %></td>
+    <td><%= link_to "Edit", edit_category_path(c) %></td>
+    <td><%= link_to "Delete", c, method: :delete, data: { confirm: "Are you sure?" } %></td>
+  </tr>
+<% end %>
+</table>
+<%= link_to "Create category", new_category_path %><br/>
+<%= link_to "To profile", user_root_path %>
