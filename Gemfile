@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem "rails_12factor", group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use mysql as the database for Active Record
@@ -40,3 +40,4 @@ gem 'spring',        group: :development
 
 gem 'devise'
 gem 'bootstrap-sass'
+ruby "2.1.3"
