@@ -23,6 +23,8 @@ $(document).ready(function(){
         initPage();
     });
     function initPage() {
-        $('.datepicker').datepicker({dateFormat: "yy-mm-dd"});
+        if( $('.datepicker').length != 0) {
+            $('.datepicker').datepicker({dateFormat: "yy-mm-dd"});
+        }
     }
 });
