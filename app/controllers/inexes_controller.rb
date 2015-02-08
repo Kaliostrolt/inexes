@@ -38,6 +38,12 @@ class InexesController < ApplicationController
   end
 
   def edit
+    @inex_cat = Category.find(@inex.category_id)
+    if @inex_cat.kind == "Incomes"
+      @cat_list = Category.where(kind: "Incomes", user_id: current_user)
+    elsif @inex_cat.kind ==  "Expenses"
+      @cat_list = Category.where(kind: "Expenses", user_id: current_user)
+    end
   end
 
   def create

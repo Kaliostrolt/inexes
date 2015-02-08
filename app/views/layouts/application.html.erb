@@ -8,13 +8,29 @@
 </head>
 <body>
 <div class="container">
+  <div id="top_menu" class="row">
 <% if user_signed_in? %>
-    <span>Hello, <%= current_user.email %></span>
-    <%= link_to 'Logout', destroy_user_session_path, :method => :delete %>
-<% else %>
-    <%= link_to 'Login', new_user_session_path %> или <%= link_to 'Register', new_user_registration_path %>
-<% end %>
+        <div class="col-md-2 col-sm-2 col-xs-2">
+          <%= link_to 'Categories', categories_path %>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2">
+          <%= link_to 'Incomes', inexes_path(kind: 'Incomes') %>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2">
+          <%= link_to 'Expenses',inexes_path(kind: 'Expenses') %>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2">
+          <%= link_to 'Report', reports_path %>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+          <span>Hello, <%= current_user.email %></span>
+          <%= link_to 'Log out', destroy_user_session_path, :method => :delete %>
+        </div>
 
+<% else %>
+    <%= link_to 'Log in', new_user_session_path %> or <%= link_to 'Sign up', new_user_registration_path %>
+<% end %>
+  </div>
 
 <%= yield %>
 </div>
