@@ -12,15 +12,15 @@
   <% end %>
 
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :category_id %><br>
-    <%= f.select(:category_id, options_from_collection_for_select(@cat_list, 'id', 'name'))%>
+    <%= f.select(:category_id, options_from_collection_for_select(@cat_list, 'id', 'name', @inex_cat.id))%>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :cost %><br>
     <%= f.text_field :cost %>
   </div>

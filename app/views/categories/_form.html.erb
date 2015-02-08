@@ -9,11 +9,11 @@
           </ul>
         </div>
     <% end %>
-    <div class="field">
+    <div class="form-group">
       <%= f.label :name %><br>
       <%= f.text_field :name %>
     </div>
-    <div class="field">
+    <div class="form-group">
       <%= f.select(:kind, options_for_select([["Incomes","Incomes"], ["Expenses", "Expenses"]]),{include_blank:"Change category"}) %>
     </div>
     <div class="actions">
