@@ -14,7 +14,7 @@
 
   <div class="form-group">
     <%= f.label :category_id %><br>
-    <%= f.select(:category_id, options_from_collection_for_select(@cat_list, 'id', 'name', @inex_cat.id))%>
+    <%= f.select(:category_id, options_from_collection_for_select(@cat_list, 'id', 'name'))%>
   </div>
   <div class="form-group">
     <%= f.label :name %><br>

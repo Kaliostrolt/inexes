@@ -26,7 +26,7 @@ class InexesController < ApplicationController
   end
 
   def new
-
+    @inex = Inex.new
     if params[:kind] == "Incomes"
       @kind_path = inexes_path(kind: "Incomes")
       @cat_list = Category.where(kind: "Incomes", user_id: current_user)
