@@ -3,7 +3,7 @@ class CategoriesController < ApplicationController
   before_action :layout_category, only: [:edit, :update, :destroy]
 
   def index
-    @cats = Category.where(user_id: current_user)
+    @cats = Category.where(user_id: current_user.id)
   end
 
   def new
