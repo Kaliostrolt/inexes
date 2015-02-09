@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f08b2b1-845c-4446-bbf3-c72969357394" name="Default" comment="config">
+    <list default="true" id="0f08b2b1-845c-4446-bbf3-c72969357394" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -113,21 +114,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="categories_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="categories_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
-              <caret line="40" column="42" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="42" />
+            <state vertical-scroll-proportion="-0.0072202166" vertical-offset="292" max-vertical-offset="954">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58064514" vertical-offset="0" max-vertical-offset="527">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="414">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -157,7 +158,6 @@
         <option value="$PROJECT_DIR$/app/models/category.rb" />
         <option value="$PROJECT_DIR$/app/models/inex.rb" />
         <option value="$PROJECT_DIR$/app/views/inexes/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/inexes.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/inexes/report.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -186,6 +186,7 @@
         <option value="$PROJECT_DIR$/app/views/persons/profile.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/categories/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
       </list>
     </option>
   </component>
@@ -655,7 +656,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423443066382</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="config">
+      <created>1423444299298</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1423444299298</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1092,18 +1099,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954">
-          <caret line="40" column="42" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="42" />
+        <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="414">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58064514" vertical-offset="0" max-vertical-offset="527">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state vertical-scroll-proportion="-0.0072202166" vertical-offset="292" max-vertical-offset="954">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
