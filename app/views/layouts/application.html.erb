@@ -28,8 +28,10 @@
         </div>
 
 <% else %>
-    <%= link_to 'Log in', new_user_session_path %> or <%= link_to 'Sign up', new_user_registration_path %>
-<% end %>
+        <div class="col-md-12 col-sm-12 col-xs-12 newuser">
+            <%= link_to 'Log in', new_user_session_path %> or <%= link_to 'Sign up', new_user_registration_path %>
+        </div>
+    <% end %>
   </div>
 
 <%= yield %>
